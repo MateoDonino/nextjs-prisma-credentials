@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/html": "^2.2.2",
     "@prisma/client": "^5.15.0",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5"
   },
   "devDependencies": {
     "eslint": "^8",
