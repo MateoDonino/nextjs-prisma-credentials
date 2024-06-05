@@ -25,7 +25,7 @@ function RegisterPage() {
     <div className="h-[calc(100vh-7rem)] flex justify-center items-center">
       <form onSubmit={onSumbit} className="w-1/4">
         <h1 className="text-white font-semibold text-4xl mb-4 text-center">
-          Register
+          Registe
         </h1>
         <label htmlFor="username" className="text-gray-500 mb-2 block text-sm">
           Username
@@ -90,7 +90,7 @@ function RegisterPage() {
           className="p-3 rounded block mb-2 bg-slate-900 text-slate-500 w-full"
           placeholder="********"
         />
-        o
+
         {errors.confirmPassword && (
           <span className="text-red-500 text-sm">
             {errors.confirmPassword.message}
