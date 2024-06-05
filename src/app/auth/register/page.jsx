@@ -24,9 +24,7 @@ function RegisterPage() {
   return (
     <div className="h-[calc(100vh-7rem)] flex justify-center items-center">
       <form onSubmit={onSumbit} className="w-1/4">
-        <h1 className="text-white font-semibold text-4xl mb-4 text-center">
-          Registe
-        </h1>
+        <h1 className="text-white text-3xl mb-4 text-center ">REGISTER</h1>
         <div className="border-2 shadow-2xl border-gray-900 rounded-2xl p-4 ">
           <label
             htmlFor="username"
